@@ -9,9 +9,4 @@ import { Client } from '../../models/client';
 })
 export class ClientViewComponent {
   @Input() client: Client = new Client();
-
-  // @Input() name!: string;
-  // @Input() lastname!: string;
-  // @Input() city!: string;
-  // @Input() street!: string;
 }
